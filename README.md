@@ -34,3 +34,37 @@ It also predicts future sales using Linear Regression.
 - Streamlit
 - Scikit-learn
 - NumPy
+
+---
+
+## 📂 Project Structure
+
+sales_analytics_project/
+│
+├── dashboard/
+│   └── app.py
+│
+├── data/
+│   └── sales_data_medium.csv
+│
+├── screenshots/
+│   ├── main_dashboard.png
+│   ├── sales_charts.png
+│   ├── ml_prediction_charts.png
+│   └── filtered_dashboard.png
+│
+├── README.md
+│
+└── requirements.txt
+
+---
+
+## ▶️ How to Run
+
+### 1. Install Required Libraries
+
+pip install -r requirements.txt
+
+### 2. Run Streamlit App
+
+streamlit run dashboard/app.py
